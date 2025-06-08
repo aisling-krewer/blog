@@ -5,7 +5,7 @@ title: Home
 
 # Welcome to My Blog
 
-This is my GitHub Pages project site built with Jekyll!
+A collections of thoughts, ramblings and notes to try and reinforce what I've learned lately!
 
 ## Recent Posts
 
