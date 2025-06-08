@@ -1,0 +1,15 @@
+# Site settings
+title: My GitHub Pages Site
+description: A simple website hosted on GitHub Pages
+
+# GitHub Pages settings
+url: "https://aisling-krewer.github.io"
+baseurl: "/blog"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
