@@ -2,16 +2,6 @@
 layout: default
 ---
 
-<article>
-  <section id="header">
-    <div class="inner">
-      <h1>{{ page.title }}</h1>
-      <h4>{{ page.date | date: "%B %d, %Y" }}</h4>
-    </div>
-  </section>
-  <section id="one" class="main style1">
-    <div class="container">{{ content }}</div>
-  </section>
-</article>
+{{ content }}
 
 <a href="{{ '/' | relative_url }}">← Back to Home</a>

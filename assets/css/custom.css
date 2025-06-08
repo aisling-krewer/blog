@@ -21,3 +21,7 @@
   margin: 0;
   font-size: 1.8rem;
 }
+
+section .main {
+  padding: 4em 0;
+}

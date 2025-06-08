@@ -9,10 +9,7 @@
       href="{{ '/assets/css/custom.css' | relative_url }}"
     />
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
-    <link
-      rel="stylesheet"
-      href="{{ '/assets/css/fontawesome-all.min.css' | relative_url }}"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
     <header class="site-header">
@@ -29,6 +26,12 @@
       <section id="header">
         <div class="inner">
           <h1>{{ page.title }}</h1>
+          {% if page.date %}
+            <h4>{{ page.date | date: "%B %d, %Y" }}</h4>
+          {% endif %}
+          {% if page.author %}
+            <h4>By {{ page.author }}</h4>
+          {% endif %}
         </div>
       </section>
       <section id="one" class="main style1">
@@ -37,7 +40,16 @@
         </div>
     </main>
 
-    <footer>
+    <footer id="footer">	
+            <ul class="icons">
+                <li><a href="https://www.instagram.com/galway.it.meetup/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://www.linkedin.com/in/aislingkrewer" class="icon brands alt fa-linkedin "><span class="label">LinkedIn</span></a></li>
+                <li><a href="mailto:hello@aislingkrewer.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+                <li><a href="https://aislingkrewer.com/files/CompTIA%20Security+%20ce%20certificate-1.pdf" class="icon solid fa-certificate"><span class="label">Verify Security+</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
       <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
     </footer>
   </body>
