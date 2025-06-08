@@ -3,7 +3,7 @@ layout: post
 title: "Input Validation: Never Trust, Always Verify."
 author: "Aisling"
 date: 2025-06-03
-categories: [post, security, web-development, input-validation]
+categories: post
 tags: [security, validation, injection-attacks, defense-in-depth, secure-coding]
 ---
 

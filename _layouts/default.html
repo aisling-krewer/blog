@@ -19,12 +19,21 @@
             >{{ site.title }}</a
           >
         </h1>
-        <div class="site-description">{{ site.description }}</div>
+        <div class="site-description"><a href="/" class="icon solid fa-home"></a></div>
       </div>
     </header>
     <main>
       <section id="header">
         <div class="inner">
+            
+          {% if page.tags contains "malware" %}
+            <span class="icon solid major fa-spaghetti-monster-flying"></span>
+            {% elsif page.tags contains "validation" %}
+            <span class="icon solid major fa-pencil"></span>
+            {% elsif page.tags contains "testing" %}
+            <span class="icon solid major fa-flask-vial"></span>
+          {% endif %}
+
           <h1>{{ page.title }}</h1>
           {% if page.date %}
             <h4>{{ page.date | date: "%B %d, %Y" }}</h4>

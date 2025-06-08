@@ -3,8 +3,8 @@ layout: post
 title: "Understanding SAST and DAST"
 author: "Aisling"
 date: 2025-06-02
-categories: [post, security, application-security, testing]
-tags: [sast, dast, static-analysis, dynamic-testing, cybersecurity]
+categories: post
+tags: [sast, dast, static-analysis, dynamic-testing, testing, cybersecurity]
 ---
 
 In the world of application security, two acronyms often come up: **SAST** and **DAST**. Both are essential tools in a security professional's toolkit, but they serve different purposes and have unique strengths. In this article, we'll explore the differences between Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST), when to use each, and how to implement them effectively.
