@@ -2,7 +2,9 @@
 layout: post
 title: "New Beginnings"
 author: "Aisling"
-categories: post, career-progress, college
+categories: post
+date: 2025-09-08
+tags: [career-progress, college]
 ---
 
 # New Beginnings
@@ -13,16 +15,16 @@ This week, I’ve officially started a Higher Diploma in Science, specializing i
 
 The program includes modules covering:
 
-Research Methods in IT – Developing critical thinking and modern research techniques applicable to computing problems.
+* Research Methods in IT – Developing critical thinking and modern research techniques applicable to computing problems.
 
-Data Protection – Law and Compliance – Deep dives into GDPR, data privacy, and the role of Data Protection Officers.
+* Data Protection – Law and Compliance – Deep dives into GDPR, data privacy, and the role of Data Protection Officers.
 
-Cyber Security Architecture – Practical measures and controls for mitigating cyber risks and ensuring compliance.
+* Cyber Security Architecture – Practical measures and controls for mitigating cyber risks and ensuring compliance.
 
-Secure Information and Event Management (SIEM) – Real-time threat monitoring, analytics, and best practices for cybersecurity incident response.
+* Secure Information and Event Management (SIEM) – Real-time threat monitoring, analytics, and best practices for cybersecurity incident response.
 
-Cybersecurity Governance, Risk, and Compliance – Understanding governance frameworks, risk assessment methodologies, and compliance across various industries.
+* Cybersecurity Governance, Risk, and Compliance – Understanding governance frameworks, risk assessment methodologies, and compliance across various industries.
 
-Cybersecurity Risk and Compliance Project – An independent research or practical project integrating knowledge from the program.
+* Cybersecurity Risk and Compliance Project – An independent research or practical project integrating knowledge from the program.
 
 I’m looking forward to applying what I learn not just in theory, but in practical, real-world contexts - and I hope to share insights and experiences along the way.
